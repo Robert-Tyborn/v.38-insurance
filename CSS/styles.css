@@ -22,7 +22,6 @@ body{
     background-color: #C7DDEA;
     display: flex;
     flex-direction: column;
-    align-items: center;
     background-image: url('../IMG/family.png');
     background-size: 268px 279px; 
     background-repeat: no-repeat;
@@ -53,9 +52,18 @@ body{
 }
 .header_grid__article_large-title{
     font-size: 45px;
+    width: 314px;
+    height: 101px;
+    margin-left: 100px;
+    margin-top: 70px;
+    margin-bottom: 0;
 }
 .header_grid__article_large-text{
     font-size: 14px;
+    width: 268px;
+    height: 103px;
+    margin-left: 100px;
+    line-height: 20px;
 }
 .header_grid__article_large-button{
     width: 131px;
@@ -63,6 +71,8 @@ body{
     border-radius: 28px;
     border: 0;
     box-shadow: -2px 3px 12px -9px #000000;
+    margin-left: 100px;
+    font-size: 10px;
 }
 .header_grid__article_small-title{
     color: white;
