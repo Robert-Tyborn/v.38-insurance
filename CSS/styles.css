@@ -23,13 +23,17 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-image: url('../IMG/family.png');
+    background-size: 268px 279px; 
+    background-repeat: no-repeat;
+    background-position: 215px 265px;
 }
-.header_grid__article_large-img{
+/* .header_grid__article_large-img{
     width: 286px;
     height: 279px;
     align-self: self-end;
     margin-top: auto;
-}
+} */
 
 .header_grid__article_small_top{
     grid-column: 2 / span 1;
