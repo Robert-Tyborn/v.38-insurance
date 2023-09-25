@@ -252,6 +252,37 @@ body{
     padding-right: 70px;
 }
 
+.footer{
+    width: 1002px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+.footer .footer__box{
+    width: 334px;
+    height: 340px;
+}
+.footer .footer__box .footer__box_nr{
+    padding: 30px;
+}
+.footer .footer__box .footer__box__text{
+    text-align: center;
+    line-height: 110px;
+}
+.footer .bluebox{
+    background-color: #C7DDEA;
+    text-align: center;
+    line-height: 300px;
+}
+.footer .box2{
+    background-color: #EBEBEB;
+}
+.footer .box4{
+    background-color: #F17949;
+}
+.footer .box1, .box3, .box5{
+    background-color: white;
+}
 @media screen and (max-width:768px){
     .header_grid{
         grid-template-columns: repeat(1, 1fr);
