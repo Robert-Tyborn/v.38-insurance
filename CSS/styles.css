@@ -123,14 +123,27 @@ body{
     grid-column: 2 / span 4;
     grid-row: 2;
     color: white;
+    margin: auto;
+    line-height: 46px;
 }
 .main .main__text{
     grid-column: 7 / span 3;
     grid-row: 2;
+    line-height: 24px;
+    transform: translateX(-22px);
+    margin: auto;
 }
 .main .main__button{
     grid-column: 2;
     grid-row: 3;
+    width: 131px;
+    height: 39px;
+    border-radius: 28px;
+    border: 0;
+    box-shadow: -2px 3px 12px -9px #000000;
+    font-size: 10px;
+    background-color: white;
+    margin-top: auto;
 }
 .main .main__card_1{
     background-color: #ffffff;
@@ -145,6 +158,7 @@ body{
 .main .main__card_1 .main__card_1__text, .main__card_2__text, .main__card_3__text{
     font-size: 11px;
     line-height: 20px;
+    padding-right: 10px;
 }
 .main .main__card_1 .main__card_1_img{
     width: 236px;
@@ -157,10 +171,8 @@ body{
 
 }
 .main .main__card_1 .main__card_1_img .main__card_1_img__image{
-    width: 70px;
-    /* background-size: 214px 138px;  */
-    background-repeat: no-repeat;
-    /* background-position: 215px 265px; */
+    width: 88px;
+    margin-top: 12px;
 }
 
 .main .main__card_2{
@@ -180,10 +192,8 @@ body{
     overflow: hidden;
 }
 .main .main__card_2 .main__card_2_img .main__card_2_img__image{
-    width: 70px;
-    /* background-size: 214px 138px;  */
-    background-repeat: no-repeat;
-    /* background-position: 215px 265px; */
+    width: 98px;
+    margin-top: 12px;
 }
 
 .main .main__card_3{
@@ -196,17 +206,15 @@ body{
 .main .main__card_3 .main__card_3_img{
     width: 236px;
     height: 150px;
-    background-color:#F17949;
+    background-color: #F17949;
     grid-column: 2;
     grid-row: 5;
     transform: translateY(-22px);
     overflow: hidden;
 }
 .main .main__card_3 .main__card_3_img .main__card_3_img__image{
-    width: 70px;
-    /* background-size: 214px 138px;  */
-    background-repeat: no-repeat;
-    /* background-position: 215px 265px; */
+    width: 140px;
+    margin-top: 20px;
 }
 .main .main__bgcolor_top{
     grid-column: 1 / span 11;
