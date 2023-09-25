@@ -116,7 +116,7 @@ body{
     height: 1292px;
     display: grid;
     grid-template-columns: 90px 1fr 1fr 27px 1fr 1fr 27px 1fr 1fr 90px;
-    grid-template-rows: 90px 137px 90px 90px  160px 160px 1fr;
+    grid-template-rows: 90px 137px 90px 90px  160px 160px 90px 90px 1fr 90px;
 }
 .main .main__title{
     font-size: 45px;
@@ -151,6 +151,7 @@ body{
     grid-row: 5 / span 2;
     text-align: center;
     padding-left: 10px;
+    border-radius: 5px;
 }
 .main .main__card_1 .main__card_1__title, .main__card_2__title, .main__card_3__title{
     font-size: 16px;
@@ -168,6 +169,7 @@ body{
     grid-row: 5;
     transform: translateY(-22px);
     overflow: hidden;
+    border-radius: 5px;
 
 }
 .main .main__card_1 .main__card_1_img .main__card_1_img__image{
@@ -181,6 +183,7 @@ body{
     grid-row: 5 / span 2;
     text-align: center;
     padding-left: 10px;
+    border-radius: 5px;
 }
 .main .main__card_2 .main__card_2_img{
     width: 236px;
@@ -190,6 +193,7 @@ body{
     grid-row: 5;
     transform: translateY(-22px);
     overflow: hidden;
+    border-radius: 5px;
 }
 .main .main__card_2 .main__card_2_img .main__card_2_img__image{
     width: 98px;
@@ -202,6 +206,7 @@ body{
     grid-row: 5 / span 2;
     text-align: center;
     padding-left: 10px;
+    border-radius: 5px;
 }
 .main .main__card_3 .main__card_3_img{
     width: 236px;
@@ -211,6 +216,7 @@ body{
     grid-row: 5;
     transform: translateY(-22px);
     overflow: hidden;
+    border-radius: 5px;
 }
 .main .main__card_3 .main__card_3_img .main__card_3_img__image{
     width: 140px;
@@ -223,8 +229,27 @@ body{
 }
 .main .main__bgcolor_bottom{
     grid-column: 1 / span 11;
-    grid-row: 6 / span 2;
+    grid-row: 6 / span 8;
     background-color: #FAB131;
+}
+.main .main__bottom_title{
+    grid-column: 5 / span 2;
+    grid-row: 8;
+    font-size: 45px;
+    color: white;
+    margin: 0;
+    line-height: 46px;
+    text-align: center;
+}
+.main .main__bottom_text{
+    grid-column: 3 / span 6;
+    grid-row: 9;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
 }
 
 @media screen and (max-width:768px){
