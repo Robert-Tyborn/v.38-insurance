@@ -264,15 +264,26 @@ body{
 }
 .footer .footer__box .footer__box_nr{
     padding: 30px;
+    font-size: 35px;
+    color: rgba(0, 0, 0, 0.400);
+    font-weight: 900;
 }
 .footer .footer__box .footer__box__text{
     text-align: center;
-    line-height: 110px;
+    /* line-height: 110px; */
+    transform: translateY(10px);
+    padding: 50px;
+    font-size: 17px;
+    font-weight: 500;
+
 }
 .footer .bluebox{
     background-color: #C7DDEA;
     text-align: center;
     line-height: 300px;
+    font-size: 45px;
+    font-weight: 900;
+    
 }
 .footer .box2{
     background-color: #EBEBEB;
